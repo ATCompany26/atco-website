@@ -32,7 +32,7 @@ const products = [
     href: AMAZON
   },
   {
-    image: "/imagesproductsumbralla-black.png",
+    image: "image: "/umbrella-black.png",
     category: "Rainwear",
     title: "2-Fold Umbrella",
     description:
