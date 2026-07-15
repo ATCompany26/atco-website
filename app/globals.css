@@ -94,25 +94,25 @@ a{color:inherit}
 }
 
 .productImage{
-  width:100%;
-  aspect-ratio:4/3;
-  background:#fff;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-  border-bottom:1px solid var(--line);
+    width:100%;
+    aspect-ratio:4/3;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    padding:8px;
+    border-bottom:1px solid var(--line);
 }
 
 .productImage img{
-  display:block;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  object-position:center;
-  transition:transform .35s ease;
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    object-position:center;
+    transition:transform .35s ease;
 }
-
 .productCard:hover .productImage img{
   transform:scale(1.035);
 }
