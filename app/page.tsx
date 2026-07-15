@@ -24,58 +24,57 @@ const collections = [
 
 const products = [
   {
-    icon: "☔",
-    category: "Rainwear",
-    title: "2-Fold Umbrellas",
+    image: "/manual-chopper.png",
+    category: "Kitchen",
+    title: "950ml Manual Pull Chopper",
     description:
-      "Compact umbrellas in practical colours for commuting, travel and everyday monsoon use.",
-    href: AMAZON,
-    tone: "toneOne"
+      "Compact pull-cord food chopper with stainless steel blades for everyday chopping.",
+    href: AMAZON
   },
+
   {
-    icon: "🗑️",
+    image: "/umbrella-black.png",
+    category: "Rainwear",
+    title: "2-Fold Umbrella",
+    description:
+      "Compact manual umbrella with 40-inch canopy for daily commuting.",
+    href: AMAZON
+  },
+
+  {
+    image: "/garbage-bags-medium.png",
     category: "Cleaning",
     title: "Garbage Bags",
     description:
-      "Convenient pack-of-3 garbage bags available in multiple household sizes.",
-    href: AMAZON,
-    tone: "toneTwo"
+      "Strong oxo-degradable garbage bags available in multiple sizes.",
+    href: AMAZON
   },
+
   {
-    icon: "💎",
-    category: "Jewellery",
-    title: "Oxidised Silver Earrings",
-    description:
-      "Traditional statement styles with enamel, pearl and stone detailing.",
-    href: AMAZON,
-    tone: "toneThree"
-  },
-  {
-    icon: "🧼",
+    image: "/microfiber-cloths.png",
     category: "Cleaning",
     title: "Microfiber Cloths",
     description:
-      "Reusable multipurpose cloths for kitchens, glass, vehicles and household cleaning.",
-    status: "Coming soon",
-    tone: "toneFour"
+      "Highly absorbent reusable microfiber cloths for home and kitchen cleaning.",
+    status: "Coming Soon"
   },
+
   {
-    icon: "🧊",
-    category: "Organisation",
-    title: "Fridge Organiser",
+    image: "/oxidised-earrings-lavender.png",
+    category: "Jewellery",
+    title: "Oxidized Silver Earrings",
     description:
-      "Compartment storage designed to separate and organise smaller food items.",
-    status: "Coming soon",
-    tone: "toneFive"
+      "Elegant oxidized silver earrings with enamel detailing for everyday ethnic wear.",
+    href: AMAZON
   },
+
   {
-    icon: "🥘",
-    category: "Kitchen",
-    title: "Cotton Roti Covers",
+    image: "/cotton-pants-white.png",
+    category: "Comfort Wear",
+    title: "Cotton Pants",
     description:
-      "Reusable cotton roti covers planned as a practical value pack for Indian homes.",
-    status: "Testing phase",
-    tone: "toneSix"
+      "Comfortable everyday cotton pants designed for daily wear.",
+    status: "Coming Soon"
   }
 ];
 
