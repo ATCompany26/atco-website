@@ -24,60 +24,54 @@ const collections = [
 
 const products = [
   {
-    image: "/manual-chopper.png",
+    image: "/manual-chopper.png.png",
     category: "Kitchen",
     title: "950ml Manual Pull Chopper",
     description:
       "Compact pull-cord food chopper with stainless steel blades for everyday chopping.",
     href: AMAZON
   },
-
   {
-    image: "/umbrella-black.png",
+    image: "/imagesproductsumbralla-black.png",
     category: "Rainwear",
     title: "2-Fold Umbrella",
     description:
-      "Compact manual umbrella with 40-inch canopy for daily commuting.",
+      "Compact manual umbrella with a 40-inch canopy for daily commuting.",
     href: AMAZON
   },
-
   {
-    image: "/garbage-bags-medium.png",
+    image: "/garbage-bags-medium.png.png",
     category: "Cleaning",
     title: "Garbage Bags",
     description:
-      "Strong oxo-degradable garbage bags available in multiple sizes.",
+      "Strong non-chlorinated oxo-degradable garbage bags available in multiple sizes.",
     href: AMAZON
   },
-
   {
-    image: "/microfiber-cloths.png",
+    image: "/microfiber-cloths.png.png",
     category: "Cleaning",
-    title: "Microfiber Cloths",
+    title: "Microfiber Cleaning Cloths",
     description:
-      "Highly absorbent reusable microfiber cloths for home and kitchen cleaning.",
-    status: "Coming Soon"
+      "Highly absorbent reusable microfiber cloths for home, kitchen and vehicle cleaning.",
+    status: "Coming soon"
   },
-
   {
-    image: "/oxidised-earrings-lavender.png",
+    image: "/oxidised-earrings-lavender.png.png",
     category: "Jewellery",
-    title: "Oxidized Silver Earrings",
+    title: "Oxidised Silver Earrings",
     description:
-      "Elegant oxidized silver earrings with enamel detailing for everyday ethnic wear.",
+      "Elegant oxidised silver earrings with stone and pearl detailing.",
     href: AMAZON
   },
-
   {
-    image: "/cotton-pants-white.png",
+    image: "/cotton-pants-white.png.png",
     category: "Comfort Wear",
-    title: "Cotton Pants",
+    title: "Comfy Cotton Pants",
     description:
-      "Comfortable everyday cotton pants designed for daily wear.",
-    status: "Coming Soon"
+      "Comfortable cotton drawstring pants designed for relaxed everyday wear.",
+    status: "Coming soon"
   }
 ];
-
 export default function HomePage() {
   return (
     <>
